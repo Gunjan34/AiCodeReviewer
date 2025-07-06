@@ -99,7 +99,7 @@ node server.js
 cd client
 npm install
 npm run dev
-🌐 API Endpoints
+🌐 API Endpoints  
 Endpoint	Method	Description
 /api/auth/signup	POST	Register new user
 /api/auth/login	POST	Login user
