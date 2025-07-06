@@ -71,10 +71,6 @@ The backend sends code snippets to Google Gemini with a detailed **system prompt
 ├── db.js
 └── server.js
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Getting Started
