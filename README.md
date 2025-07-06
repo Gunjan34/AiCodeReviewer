@@ -56,3 +56,57 @@ The backend sends code snippets to Google Gemini with a detailed **system prompt
 
 ## 📁 Project Structure
 
+
+/client
+├── components/
+├── App.jsx
+├── index.js
+└── styles...
+
+/server
+├── controller/
+├── routes/
+├── model/
+├── services/
+├── db.js
+└── server.js
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js and npm
+- MongoDB
+- Gemini API Key from [Google AI Studio](https://aistudio.google.com/)
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ai-code-reviewer.git
+cd ai-code-reviewer
+2. Backend Setup
+cd server
+npm install
+🔐 Create a .env file in /server:
+
+JWT_SECRET=your_jwt_secret_key
+GOOGLE_GEMINI_KEY=your_google_gemini_api_key
+node server.js
+3. Frontend Setup
+cd client
+npm install
+npm run dev
+🌐 API Endpoints
+Endpoint	Method	Description
+/api/auth/signup	POST	Register new user
+/api/auth/login	POST	Login user
+/ai/get-review	POST	Get AI code review
+
+
